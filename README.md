@@ -41,7 +41,7 @@ Configuración de la petición:
 1. Abre Postman y crea una nueva Request.
 2. Selecciona el método HTTP correspondiente (ej. GET para listar, POST para crear).
 3. En la barra de direcciones, escribe el siguiente endpoint:
-Enlaces de despliegue en Render (API lista para probar en Postman):
+Enlace de despliegue en Render (API lista para probar en Postman):
  - Productos: https://ms-productos-pmew.onrender.com/api/productos
 
 ---
