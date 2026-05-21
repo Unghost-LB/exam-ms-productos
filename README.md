@@ -28,12 +28,22 @@ Microservicio responsable de la gestión del catálogo de productos. Permite la 
 2. Configurar la conexión a la base de datos de Neon en `src/main/resources/application.properties`.
 3. Ejecutar: `mvn spring-boot:run`
 
+
 ## Instrucciones Básicas de Despliegue
 Este proyecto está configurado para despliegue automático en **Render**:
 1. Conectar el repositorio de GitHub a Render.
 2. Configurar el *Build Command*: `mvn clean package -DskipTests`
 3. Configurar el *Start Command*: `java -jar target/*.jar`
 4. Añadir las variables de entorno de conexión a base de datos.
+
+En este caso las conexiones a Render ya se realizaron.
+Configuración de la petición:
+1. Abre Postman y crea una nueva Request.
+2. Selecciona el método HTTP correspondiente (ej. GET para listar, POST para crear).
+3. En la barra de direcciones, escribe el siguiente endpoint:
+Enlaces de despliegue en Render (API lista para probar en Postman):
+ - Productos: https://ms-productos-pmew.onrender.com/api/productos
+ - Pedidos: https://ms-pedidos-yt91.onrender.com/api/pedidos
 
 ---
 **Examen Final | Docente: Nike Rodriguez**
