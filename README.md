@@ -43,7 +43,6 @@ Configuración de la petición:
 3. En la barra de direcciones, escribe el siguiente endpoint:
 Enlaces de despliegue en Render (API lista para probar en Postman):
  - Productos: https://ms-productos-pmew.onrender.com/api/productos
- - Pedidos: https://ms-pedidos-yt91.onrender.com/api/pedidos
 
 ---
 **Examen Final | Docente: Nike Rodriguez**
