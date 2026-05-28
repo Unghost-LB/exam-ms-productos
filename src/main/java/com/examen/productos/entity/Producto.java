@@ -30,4 +30,8 @@ public class Producto {
     private Boolean estado;
 
     private LocalDateTime fechaCreacion;
+
+    private String categoria;
+
+    private String imagenUrl;
 }
