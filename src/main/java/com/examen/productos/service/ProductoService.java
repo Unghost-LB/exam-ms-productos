@@ -25,6 +25,7 @@ public class ProductoService {
                 .stock(request.getStock())
                 .estado(request.getEstado())
                 .fechaCreacion(LocalDateTime.now())
+                .imagenUrl(request.getImagenURL())
                 .build();
 
         return repository.save(producto);
@@ -48,6 +49,7 @@ public class ProductoService {
         producto.setPrecio(request.getPrecio());
         producto.setStock(request.getStock());
         producto.setEstado(request.getEstado());
+        producto.setImagenUrl(request.getImagenURL());
 
         return repository.save(producto);
     }
