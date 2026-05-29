@@ -31,5 +31,5 @@ public class ProductoRequest {
     private String categoria;
 
     @URL(message = "Debe de proporcionar una URL válida")
-    private String imagenURL;
+    private String imagenUrl;
 }

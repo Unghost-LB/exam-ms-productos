@@ -31,6 +31,8 @@ public class Producto {
 
     private LocalDateTime fechaCreacion;
 
+    private LocalDateTime fechaActualizacion;
+
     private String categoria;
 
     private String imagenUrl;

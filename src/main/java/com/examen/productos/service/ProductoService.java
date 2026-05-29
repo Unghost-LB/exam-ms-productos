@@ -24,8 +24,9 @@ public class ProductoService {
                 .precio(request.getPrecio())
                 .stock(request.getStock())
                 .estado(request.getEstado())
+                .categoria(request.getCategoria())
                 .fechaCreacion(LocalDateTime.now())
-                .imagenUrl(request.getImagenURL())
+                .imagenUrl(request.getImagenUrl())
                 .build();
 
         return repository.save(producto);
@@ -49,8 +50,9 @@ public class ProductoService {
         producto.setPrecio(request.getPrecio());
         producto.setStock(request.getStock());
         producto.setEstado(request.getEstado());
-        producto.setImagenUrl(request.getImagenURL());
-
+        producto.setCategoria(request.getCategoria());
+        producto.setImagenUrl(request.getImagenUrl());
+        producto.setFechaActualizacion(LocalDateTime.now());
         return repository.save(producto);
     }
 
